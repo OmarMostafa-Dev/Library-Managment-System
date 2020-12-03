@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuController">
+   <children>
+      <Button layoutX="27.0" layoutY="45.0" mnemonicParsing="false" onAction="#addBook" prefHeight="57.0" prefWidth="253.0" style="-fx-background-radius: 90;" text="Add Book" />
+      <Button layoutX="300.0" layoutY="45.0" mnemonicParsing="false" onAction="#viewBook" prefHeight="57.0" prefWidth="253.0" style="-fx-background-radius: 90;" text="View Books" />
+      <Button layoutX="29.0" layoutY="136.0" mnemonicParsing="false" onAction="#loanBook" prefHeight="57.0" prefWidth="253.0" style="-fx-background-radius: 90;" text="Loan Book" />
+      <Button layoutX="300.0" layoutY="136.0" mnemonicParsing="false" onAction="#viewLoanedBooks" prefHeight="57.0" prefWidth="253.0" style="-fx-background-radius: 90;" text="View Loaned Books" />
+      <Button layoutX="155.0" layoutY="323.0" mnemonicParsing="false" onAction="#signOut" prefHeight="44.0" prefWidth="270.0" text="Sign out" />
+      <Button layoutX="29.0" layoutY="224.0" mnemonicParsing="false" onAction="#addLibrarian" prefHeight="57.0" prefWidth="253.0" style="-fx-background-radius: 90;" text="Add Librarian" />
+      <Button layoutX="299.0" layoutY="224.0" mnemonicParsing="false" onAction="#viewLibrarian" prefHeight="57.0" prefWidth="253.0" style="-fx-background-radius: 90;" text="View Librarians" />
+   </children>
+</AnchorPane>
